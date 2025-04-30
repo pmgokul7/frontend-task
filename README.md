@@ -15,8 +15,10 @@ If you are developing a production application, we recommend using TypeScript wi
 
 total routes - 3
 
-/
-/signup
-/verify-otp
+/  
+
+/signup  
+
+/verify-otp  
 
 nb: not connected with apis as it is not mentioned in requirements
