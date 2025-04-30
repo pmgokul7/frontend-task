@@ -1,0 +1,119 @@
+.otp-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp-card {
+    width: 780px;
+    height: 581px;
+    box-shadow: 5px 3px 20px 0px #00000066;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+}
+
+.otp-left-container {
+    width: 50%;
+    border-radius: 30px 0 0 30px;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.otp-right-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.otp-auth-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.otp-auth-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.otp-auth-top h4 {
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.otp-auth-mid {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.otp-auth-mid form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.otp-auth-mid .top {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.otp-auth-mid input[type="text"] {
+    width: 45px;
+    height: 45px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 20px;
+    transition: border 0.2s;
+}
+
+.otp-auth-mid input[type="text"]:focus {
+    border-color: var(--primary-color);
+  
+}
+
+.otp-auth-mid input[type="submit"] {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    transition: background-color 0.3s;
+}
+
+
+
+.otp-auth-bottom {
+    color: var(--secondary-color);
+    font-size: 14px;
+}
+
+.otp-auth-bottom a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.otp-auth-bottom a:hover {
+    text-decoration: underline;
+}
